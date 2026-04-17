@@ -1,0 +1,5 @@
+{
+  "name": "plotcut",
+  "private": true,
+  "workspaces": ["apps/web", "shared/schema"]
+}

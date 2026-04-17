@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0a0a0a;
+  --fg: #ededed;
+  --accent: #7c3aed;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
