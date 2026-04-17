@@ -2,3 +2,7 @@ ebooklib
 beautifulsoup4
 openai
 Pillow
+piper-tts
+pydub
+ffmpeg-python
+python-dotenv

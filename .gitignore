@@ -1,6 +1,7 @@
 node_modules/
 .next/
 OpenMontage/
+vendor/
 dist/
 out/
 .env
