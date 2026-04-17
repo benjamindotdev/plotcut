@@ -34,6 +34,7 @@
 
 import { readFile, writeFile, mkdir } from "fs/promises";
 import path from "path";
+import { Image } from "@daytona/sdk";
 import { getDaytona } from "./daytona";
 import { updateJob } from "./store";
 
@@ -53,6 +54,7 @@ export async function runPipeline(jobId: string, inputPath: string): Promise<voi
     // ---------------------------------------------------------------
     updateJob(jobId, { status: "extracting" });
     const sandbox = await daytona.create({
+      image: Image.debianSlim("3.12"),
       language: "python",
       resources: { cpu: 2, memory: 4, disk: 8 },
       ephemeral: true,
