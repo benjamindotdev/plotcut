@@ -1,4 +1,4 @@
-import type { Job, JobStatus } from "@plotcut/schema";
+import type { Job, JobStatus } from "./types";
 
 /**
  * In-memory job store. Good enough for a hackathon demo.

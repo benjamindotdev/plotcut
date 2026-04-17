@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "standalone",
   // Load env vars from the repo root .env (two levels up from apps/web)
   // These are server-only — never exposed to the browser
   env: {
