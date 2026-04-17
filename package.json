@@ -1,5 +1,8 @@
 {
   "name": "plotcut",
   "private": true,
-  "workspaces": ["apps/web", "shared/schema"]
+  "workspaces": ["apps/web", "shared/schema"],
+  "scripts": {
+    "build": "cd apps/web && npx next build"
+  }
 }
