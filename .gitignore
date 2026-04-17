@@ -11,7 +11,8 @@ __pycache__/
 venv/
 *.egg-info/
 .pytest_cache/
-output/
+/output/
+/outputs/
 renders/
 uploads/
 *.mp4
